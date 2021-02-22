@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 const TodoListItem = ({ todo, onRemovePressed }) => (
 <div className="todo-item-container">

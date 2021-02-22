@@ -2,6 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import { connect } from 'react-redux';
 import { createTodo } from './actions';
+import '../App.css';
 
 
 

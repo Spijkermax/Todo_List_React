@@ -3,6 +3,7 @@ import TodoListItem from './TodoListItem';
 import TodoForm from './TodoForm';
 import { connect } from 'react-redux';
 import { removeTodo } from './actions';
+import '../App.css';
 
 const TodoList = ({ todos = [], onRemovePressed }) => (
     <div className="list-wrapper">
