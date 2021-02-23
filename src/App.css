@@ -2,7 +2,23 @@
   text-align: center;
   font-size: '30px';
 }
-#new-todo-form {
-  background-color: aqua;
-  font-size:xx-small;
+
+body {
+  background-color: lightblue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+  font-size: "30px";
+}
+h1 {
+  color: purple;
+}
+.list-wrapper {
+  background-color: white;
+  border-style: solid;
+  padding: 5%;
+  
+}
+.todo-item-container {
+  background-color: lightcyan;
 }

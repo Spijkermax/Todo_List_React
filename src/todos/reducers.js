@@ -1,5 +1,6 @@
 /** reducers are just a function for the redux store */
 import { CREATE_TODO, REMOVE_TODO } from './actions';
+import '../App.css';
 
 
 export const todos = (state = [], action) => { //state of our current todo items, and action that was triggered, and what should occur as a result of the action

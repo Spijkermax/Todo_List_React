@@ -7,6 +7,7 @@ import '../App.css';
 
 const TodoList = ({ todos = [], onRemovePressed }) => (
     <div className="list-wrapper">
+        <h2>Chore List</h2>
         <TodoForm />
         {todos.map(todo => <TodoListItem todo={todo} onRemovePressed={onRemovePressed}/>)}
     </div>
